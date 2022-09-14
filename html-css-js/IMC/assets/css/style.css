@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+:root {
+    --primary-color: rgb(4, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56);
+    --primary-color-click: rgb(9, 103, 146);
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+
+.container {
+    display: block;
+    max-width: 950px;
+    height: 850px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 15px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 10px;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color)
+}
+
+
+form button:hover {
+    background: var(--primary-color-darker);
+
+}
+
+form button:active {
+    background: var(--primary-color-click);
+}
+
+form button {
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.edicao {
+    max-width: 750px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.resultado {
+    font-size: 30px;
+}
+
+.texto {
+    display: inline-flex;
+}
+
+.imc {
+    text-align: center;
+    margin-bottom: 5px;
+    width: 550px;
+}
+
+.resultadoH1 {
+    text-align: center;
+}
+
+.paragrafo-resultado,
+.bad {
+    background: rgb(164, 224, 136);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(199, 86, 86);
+}
+
+.tabela {
+    text-align: center;
+}
+
+
